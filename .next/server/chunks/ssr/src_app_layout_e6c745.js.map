@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/chammu/To-do/to-do/src/app/layout.js"],"sourcesContent":["import React from 'react';\n\nconst e = React.createElement;\n\nconst RootLayout = ({ children }) => {\n  return e('html', { lang: 'en' },\n    e('head', null,\n      e('title', null, 'Persistent Todo List'),\n      e('meta', { name: 'description', content: 'A persistent todo list application' }),\n      e('link', { rel: 'icon', href: '/favicon.ico' })\n    ),\n    e('body', null, children)\n  );\n};\n\nexport default RootLayout;\n\n"],"names":[],"mappings":";;;AAAA;;AAEA,MAAM,IAAI,qMAAA,CAAA,UAAK,CAAC,aAAa;AAE7B,MAAM,aAAa,CAAC,EAAE,QAAQ,EAAE;IAC9B,OAAO,EAAE,QAAQ;QAAE,MAAM;IAAK,GAC5B,EAAE,QAAQ,MACR,EAAE,SAAS,MAAM,yBACjB,EAAE,QAAQ;QAAE,MAAM;QAAe,SAAS;IAAqC,IAC/E,EAAE,QAAQ;QAAE,KAAK;QAAQ,MAAM;IAAe,KAEhD,EAAE,QAAQ,MAAM;AAEpB;uCAEe"}},
+    {"offset": {"line": 25, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
